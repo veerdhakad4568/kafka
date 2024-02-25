@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyEventProducerApplication {
 
 	public static void main(String[] args) {
+
+
+		System.setProperty("server.port", "8082");
 		SpringApplication.run(MyEventProducerApplication.class, args);
 	}
 
